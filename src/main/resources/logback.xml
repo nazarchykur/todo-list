@@ -5,7 +5,7 @@
         </encoder>
     </appender>
 
-    <logger name="academy.com.learnjava" level="DEBUG"/>
+    <logger name="com.mvcpro" level="DEBUG"/>
     <logger name="org.springframework" level="DEBUG"/>
 
     <root level="INFO">
