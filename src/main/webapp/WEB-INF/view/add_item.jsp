@@ -12,16 +12,24 @@
         <form:form method="POST" modelAttribute="${AttributeNames.TODO_ITEM}">
               <table>
                   <tr>
-                      <td>First Name:</td>
-                      <td><form:input path="firstName" /></td>
+                      <td><label>ID</label></td>
+                      <td><form:input path="id" disabled="true" /></td>
                   </tr>
                   <tr>
-                      <td>Last Name:</td>
-                      <td><form:input path="lastName" /></td>
+                      <td><label>Title</label></td>
+                      <td><form:input path="title" /></td>
+                  </tr>
+                  <tr>
+                      <td><label>Deadline</label></td>
+                      <td><form:input path="deadline" /></td>
+                  </tr>
+                  <tr>
+                       <td><label>Details</label></td>
+                       <td><form:input path="details" /></td>
                   </tr>
                   <tr>
                       <td colspan="2">
-                          <input type="submit" value="Save Changes" />
+                          <input type="submit" value="Submit" />
                       </td>
                   </tr>
               </table>
